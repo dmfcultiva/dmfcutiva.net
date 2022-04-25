@@ -1,0 +1,234 @@
+
+/* Fuentes */
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url('../fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('../fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "WebSymbolRegular";
+    src: url('../fonts/websymbols-regular-webfont.eot');
+    src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../fonts/websymbols-regular-webfont.svg') format('svg');
+}
+
+
+/* Estilos Generales */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "BebasNeue";
+}
+
+body{
+    background: url(../img/cannabis-fondo.png);
+}
+
+/* Cabecera para CSS */
+
+#cabecera{
+    width: 100%;
+    height: 193px;
+    background-color: #799F49;
+    border: 2px solid black;
+    border-bottom: none !important;
+    text-shadow: 1px 1px 5px gray;
+}
+
+#cabecera .titulo{
+    width: 1000px;
+    float: left;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#cabecera .imagen{
+    width: 200px;
+    height: 193px;
+    float: right;  
+    margin: 0px;
+    padding: 0px;
+
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* Contenido */
+#contenido{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 400px;
+    float: right;
+    border: 2px solid black;
+}
+
+#contenido h2{
+    background-color: #799F49;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px gray;
+}
+
+#contenido p{
+    background-color: white;
+}
+/* Barra Lateral */
+#lateral{
+    width: 30%;
+    height: 400px;
+    padding: 10px;
+}
+
+#lateral ul li{
+    width: 250px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    list-style-type: none; /* Este comando elimina los símbolos delante del texto */
+    padding-top: 30px;
+}
+
+#lateral ul li a{
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 0px;
+    transition: all 200ms;
+}
+
+#lateral ul li a:hover{
+    color: whitesmoke;
+    background-color: #250;
+    text-shadow: 4px 4px 10px darkgreen;
+}
+
+/* Pie de página */
+
+#pie{
+    width: 100%;
+    text-align: center;
+}
+
+#pie .leyenda{
+    color: darkblue;
+}
+
+/* página de contenidos */
+
+#enca{
+    width: 100%;
+    height: 120px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 4px #250;
+}
+
+#enca .beza h1{
+    display: block;
+    background-color: #250;
+    margin: 25px auto;
+    text-align: center;
+    text-shadow: 1px 1px 5px gray;
+}
+
+#enca .beza .lista ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 2px auto;
+    /*letter-spacing: 1px;*/
+    border: 2px solid black;
+}
+
+#enca .beza .lista ul li a{
+    width: 200px;
+    height: 25px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: all 200ms;
+
+}
+
+#enca .beza .lista ul li a:hover{
+    color: whitesmoke;
+    background-color: #250;
+    text-shadow: 4px 4px 10px darkgreen;
+}
+
+/* Contenido central */
+
+#central{
+    display: block;
+    width: 100%;
+    height: 350px;
+    border: 2px solid #250;
+    box-shadow: 2px 2px 2px darkgreen;
+}
+
+#central .caja{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #250;
+    box-shadow: 2px 2px 2px darkgreen;
+}
+
+#cuerpo{
+    width: 100%;
+    height: 800px;
+    border: 2px solid black;
+}
+
+#cuerpo .eti-cabe{
+    width: 750px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    color: #444;
+    border: 4px solid black;
+}
+
+#datos{
+    display: block;
+    float: left;
+    width: 750px;
+    height: 300px;    
+    border: 4px solid black; 
+    
+}
+
+#datos .lbl-comentar{
+    width: 100%;
+    text-align: center;
+
+}
+
+#datos .lbl-comentar .comentar{
+    display: block;
+    float: left;
+    width: 750px;
+    height: 70px;
+    border: 2px solid blue;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
